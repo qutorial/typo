@@ -27,7 +27,7 @@ source 'https://rubygems.org'
 ruby "1.9.3"
 
 gem 'thin'
-gem 'rails', '~> 3.0.10'
+gem 'rails', '~> 6.1.7', '>= 6.1.7.3'
 gem 'require_relative'
 gem 'htmlentities'
 gem 'json'
@@ -47,9 +47,9 @@ gem 'recaptcha', :require => 'recaptcha/rails', :branch => 'rails3'
 
 group :development, :test do
   gem 'ruby-debug19'
-  gem 'factory_girl', '~> 2.2'
+  gem 'factory_girl', '~> 2.6', '>= 2.6.4'
   gem 'webrat'
-  gem 'rspec-rails', '~> 2.0'
+  gem 'rspec-rails', '~> 2.11', '>= 2.11.0'
   gem 'simplecov', :require => false
   gem 'sqlite3'
   gem 'cucumber'
